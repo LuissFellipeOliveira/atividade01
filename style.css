@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    color: #ff0000;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(248, 0, 50);
+    padding: 25px 0;
+    text-align: left;
+    padding-left: 160px;
+}
+
+.header img {
+    width: 220px;
+    height: auto;
+    padding-left: 10%;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 56px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 24px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 0.875rem;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.container label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.container .password-container {
+    position: relative;
+    width: 100%;
+}
+
+.container .password-container input[type="password"],
+.container .password-container input[type="text"] {
+    width: calc(100% - 40px);
+    padding-right: 30px;
+}
+
+.container .btn {
+    width: 390px;
+    padding: 10px;
+    background-color: rgb(248, 0, 50);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 48px;
+    transition: background-color 0.3s ease; /* Adiciona transição */
+}
+
+.container .btn:hover {
+    background-color: #cc0000; /* Tom mais escuro ao passar o mouse */
+}
+
+.container .link {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.container .link a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.container .link a:hover {
+    color: #ff0000; /* Muda a cor do link ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+.container .privacy {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 20px;
+}
+
+.container .privacy a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.container .privacy a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.redefinir-senha {
+    color: #666666;
+    float: right;
+    margin-right: 0px;
+    text-decoration: none;
+}
+
+.login-cliente {
+    text-align: center;
+    margin-top: 10px;
+    color: #666666;
+}
+
+/* Alinhando a logo e o texto "login do cliente" */
+.logo-texto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinha a logo e o texto no início */
+    gap: 10px; /* Espaçamento entre a logo e o texto */
+    color: #666666;
+    margin-bottom: 20px; /* Margem inferior para separar dos outros elementos */
+}
+
+.logo-texto img {
+    height: 40px; /* Tamanho padrão da logo */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.logo-texto span {
+    font-size: 1.5em; /* Tamanho do texto */
+    font-weight: bold;
+    color: #666666; /* Cor do texto */
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .kxZgIl {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+.kxZgIl {
+    display: flex;
+    text-align: center;
+    padding-top: 56px;
+    align-items: center;
+    flex-direction: column;
+}
+.dDJpED {
+    font-size: 1.75rem;
+    letter-spacing: 0.006rem;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0px 0px 24px;
+    text-transform: lowercase;
+}
+.eXTPaZ {
+    color: rgb(102, 102, 102);
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 56px;
+}
+.eaTukg {
+    position: relative;
+    top: 7px;
+    width: 36px;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* botão do olho */
+.svg {
+    width: 24;
+    height: 20;
+    fill: none;
+}
+.kygpno i > :first-child {
+    top: 100px;
+    right: 12px;
+}
+.AfpzZ {
+    all: unset;
+    width: 26px;
+    top: 60px;
+    right: 15px;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+
+.svg:not(:root) {
+    overflow: hidden;
+}
+.svg {
+    width: 24;
+    height: 20;
+    fill: none;
+    
+}
+
+
